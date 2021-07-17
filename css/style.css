@@ -32,6 +32,13 @@ header#main-header h1 {
   margin: 0;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
 /* define box vars */
 
 .box {
