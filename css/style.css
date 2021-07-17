@@ -31,3 +31,16 @@ header#main-header h1 {
   padding: 0;
   margin: 0;
 }
+
+/* define box vars */
+
+.box {
+  --box-bg-color: #ddd;
+  --box-main-color: #06c;
+  --box-padding: 5px 10px;
+}
+
+.box {
+  background-color: var(--box-bg-color);
+  padding: var(--box-padding);
+}
