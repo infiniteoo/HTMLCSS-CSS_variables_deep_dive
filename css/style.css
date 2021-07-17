@@ -4,6 +4,8 @@
   --main-bg-color: #f4f4f4;
   --main-txt-color: #333;
   --container-width: 90%;
+  --header-bg-color: #333;
+  --header-txt-color: #fff;
 }
 
 body {
@@ -18,4 +20,9 @@ body {
 .container {
   width: var(--container-width);
   margin: 20px auto;
+}
+
+header#main-header {
+  background-color: var(--header-bg-color);
+  color: var(--header-txt-color);
 }
