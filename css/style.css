@@ -62,3 +62,10 @@ header#main-header h1 {
 .box h1 {
   color: var(--box-main-color);
 }
+
+.box p {
+  /* --box-main-color: #555;
+  color: var(--box-main-color); */
+
+  color: var(--box-p-color, #555);
+}
