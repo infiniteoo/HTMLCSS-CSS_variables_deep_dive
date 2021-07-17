@@ -50,4 +50,10 @@ header#main-header h1 {
 .box {
   background-color: var(--box-bg-color);
   padding: var(--box-padding);
+  border: 1px solid var(--box-main-color);
+  box-shadow: 10px 5px 5px var(--box-main-color);
+}
+
+.box h1 {
+  color: var(--box-main-color);
 }
