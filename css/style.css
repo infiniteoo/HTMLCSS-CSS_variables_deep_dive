@@ -1,0 +1,9 @@
+/* define vars for the root element */
+
+:root {
+  --main-bg-color: #f4f4f4;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
