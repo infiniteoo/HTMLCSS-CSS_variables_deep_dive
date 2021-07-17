@@ -35,7 +35,8 @@ header#main-header h1 {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  --gap: 20;
+  gap: calc(var(--gap) * 1px);
   align-items: center;
 }
 
